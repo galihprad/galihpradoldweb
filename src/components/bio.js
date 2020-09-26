@@ -6,13 +6,13 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 
-const Bio = () => {
+const Bio = props => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile.png/" }) {
         childImageSharp {
           fixed(width: 50, height: 50, quality: 95) {
             ...GatsbyImageSharpFixed
@@ -52,13 +52,24 @@ const Bio = () => {
         />
       )}
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
+        <div>
+          {props.homepage && (
+            <div>
+              <span role="img">👋</span> Hi, I am{" "}
+            </div>
+          )}
+          <strong>{author.name}</strong>
+          <div>
+            {author?.summary || null} <span role="img">🇮🇩</span>
+          </div>
+          <div>
+            {props.homepage && (
+              <Link to="/about" itemProp="url">
+                About Me
+              </Link>
+            )}
+          </div>
+        </div>
       )}
     </div>
   )

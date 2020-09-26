@@ -35,6 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </footer>
       </article>
       <nav className="blog-post-nav">
+        <Link to="/">← Home</Link>
         <ul
           style={{
             display: `flex`,
