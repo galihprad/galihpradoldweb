@@ -57,6 +57,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    "gatsby-plugin-loadable-components-ssr",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

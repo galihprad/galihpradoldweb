@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        {/* {title} */}← Home
+        ← Home
       </Link>
     )
   }
