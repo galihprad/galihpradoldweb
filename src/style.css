@@ -260,6 +260,13 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  position: sticky;
+  top: 0;
+  background-color: #292a35;
+  height: 40px;
+  margin-left: -25px;
+  padding-top: 5px;
+  /* margin-top: 20px; */
 }
 
 .main-heading {
@@ -337,6 +344,15 @@ a:focus {
   ul,
   ol {
     list-style-position: inside;
+  }
+  .global-header {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .global-header {
+    margin-left: -140px;
   }
 }
 
