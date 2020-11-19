@@ -1,0 +1,38 @@
+:root {
+  --color-primary-dark: #ff97c1;
+  --color-text-dark: #d1c4e9;
+  --color-text-light-dark: #b39ddb;
+  --color-heading-dark: #ff97c1;
+  --color-heading-black-dark: #ffffff;
+  --color-accent-dark: #d1dce5;
+}
+
+body {
+  color: var(--color-text-dark);
+  background-color: #292a35;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading-dark);
+}
+
+h1 {
+  color: var(--color-heading-black-dark);
+}
+
+blockquote {
+  color: var(--color-text-light-dark);
+  border-left: var(--spacing-1) solid var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+.post-list-item h2 {
+  color: var(--color-primary-dark);
+}
