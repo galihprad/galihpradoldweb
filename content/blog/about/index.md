@@ -7,7 +7,7 @@ description: Hi
 ![Github](./icons8-github.svg) [galihprad](https://github.com/galihprad)
 📩 galih.p.w.j@gmail.com
 
-Assalamu'alaikum. I am Galih, Front-End/JavaScript Developer from [Yogyakarta](https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta), Indonesia 🇮🇩
+Assalamu'alaikum. I am Galih, Front-End/JavaScript Developer from [Yogyakarta](https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta), Indonesia 🇮🇩.
 
 ⚽ Play futsal and football in spare time
 
