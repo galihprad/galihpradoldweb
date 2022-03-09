@@ -126,4 +126,6 @@ buah?.map(item => <li> item </li>)
 Lebih jauh tentang _optional chaining_ bisa dilihat [disini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining).
 
 Sekian artikel kali ini, semoga bermanfaat, terimakasih.
-Support dan diskusi disini 👇👇👇
+Support dan diskusi di tweet ini 👇👇👇
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Halloo, my first blog post here<a href="https://t.co/6VGwaiQPA1">https://t.co/6VGwaiQPA1</a></p>&mdash; Gal (@gpwisnujati) <a href="https://twitter.com/gpwisnujati/status/1501414602017755137?ref_src=twsrc%5Etfw">March 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
