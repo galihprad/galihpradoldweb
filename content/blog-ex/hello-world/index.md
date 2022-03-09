@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: "Error : Cannot read property 'map' of undefined"
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: "Problem explanantion and solution"
 ---
 
 This is my first post on my new fake blog! How exciting!
