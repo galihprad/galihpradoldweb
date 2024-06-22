@@ -3,7 +3,7 @@ module.exports = {
     title: `Galih Blog`,
     author: {
       name: `Galih Pradipto Wisnujati`,
-      summary: `FE/JS Developer`,
+      summary: `Computer Science/Mathematics`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
